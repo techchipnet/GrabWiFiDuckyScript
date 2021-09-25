@@ -32,5 +32,6 @@ ENTER
 DELAY 500
 STRING exit
 ENTER
+REM Subscribe TechChip YouTube Channel
 </code>
 </pre>
