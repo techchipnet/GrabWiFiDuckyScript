@@ -1,4 +1,4 @@
-# StealWiFiDuckyScript
+# Grab Saved WiFi Password using DuckyScript
 USB Rubber Ducky Script for capture saved wifi passwords
 <pre>
 <code>
