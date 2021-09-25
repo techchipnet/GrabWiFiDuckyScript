@@ -4,5 +4,6 @@ USB Rubber Ducky Script for capture saved wifi passwords
 <code>
 Open duckypayload.txt
 Copy and paste the script
+Replace your webhook URL
 </code>
 </pre>
