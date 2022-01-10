@@ -28,4 +28,4 @@ ENTER
 DELAY 500
 STRING exit
 ENTER
-REM Subscribe techchip youtube channel
+REM Subscribe techchip & cybertube youtube channel
